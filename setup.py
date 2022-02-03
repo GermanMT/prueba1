@@ -13,7 +13,7 @@ setuptools.setup(
     ],
     python_requires='>=3.9',
     install_requires=[
-        'pytest>=4.0.0,<=6.2.5',
+        'pytest<=1.0.0',
         'pytest-httpbin==1.0.0',
         'pytest-mock==2.0.0',
         'Flask>=1.0,<2.0',
